@@ -7,7 +7,7 @@ describe('Radio', () => {
     const json = renderer
       .create(
         <ThemeProvider>
-          <Radio checked />
+          <Radio checked id="radio-input" />
         </ThemeProvider>
       )
       .toJSON()
@@ -18,7 +18,7 @@ describe('Radio', () => {
     const json = renderer
       .create(
         <ThemeProvider>
-          <Radio />
+          <Radio id="radio-input" />
         </ThemeProvider>
       )
       .toJSON()
@@ -29,7 +29,7 @@ describe('Radio', () => {
     const json = renderer
       .create(
         <ThemeProvider>
-          <Radio disabled />
+          <Radio disabled id="radio-input" />
         </ThemeProvider>
       )
       .toJSON()
